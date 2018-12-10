@@ -13,7 +13,6 @@ Ask for the input from the user until correct input is given
 Available options are chicago, new york city and washington
 
 """
-
 while True:
     try:
         cit = input('Enter the city for which you would like to see the usage:\n Available options: chicago,new york city,washington \n')
@@ -25,7 +24,6 @@ while True:
         continue
     else:
         break
-
 #To convert the dataframe to datetime format
 
 df['Start Time'] = pd.to_datetime(df['Start Time'])
