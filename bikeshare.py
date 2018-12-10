@@ -24,7 +24,7 @@ while True:
         continue
     else:
         break
-#To convert the dataframe to datetime format
+#This section is to convert the dataframe to datetime format
 
 df['Start Time'] = pd.to_datetime(df['Start Time'])
 df['month'] = df['Start Time'].dt.month
