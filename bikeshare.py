@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 3 Datasets to analyse: 
-# Datasets are in csv format.
+# Datasets are in csv format. Later this will be added in .gitignore file
 # Following city datasets: Chicago, Washington and New York City are loaded into the CITY_DATA dictionary.
 
 CITY_DATA = { 'chicago': 'chicago.csv',
