@@ -7,6 +7,7 @@ Bikeshare project analyses the bike rental data for 3 cities in US.
 Various user input is used to display the user specific results
 ### Files used
 Data files used in this project are:
-Chicago csv, Washington csv and New york city csv data files
+Chicago csv, Washington csv and New york city csv data files.
+But they are added to .gitignore files.
 ### Credits
 Udacity inspired me
